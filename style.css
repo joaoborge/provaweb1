@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background: no-repeat center/cover url("https://images.pexels.com/photos/5140475/pexels-photo-5140475.jpeg?cs=srgb&dl=pexels-lucca-belliboni-5140475.jpg&fm=jpg");
+    height: calc(60vh - 100px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;  
+    color: white;
+}
+
+header nav .pais-image {
+    width: 90px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+header nav h1 {
+    margin-left: 1000px;
+    margin-top: 35px;
+}
+
+header nav ul {
+    margin-top: 35px;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0px 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+header .turismo-image {
+    width: 400px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.pacotes {
+    background: #006d75;
+    padding: 20px;
+}    
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image {
+    width: 320px;
+    height: 200px;
+    border-radius: 24px 0 24px 0;
+}
+
+.pacotes .card {
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.pacotes .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
